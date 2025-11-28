@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js 작품 모음</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>나의 p5.js 작품</h1>
+        <p>아래 링크를 클릭하면 각 과제 페이지로 이동합니다. (배치: 1, 4 / 2, 3)</p>
+    </header>
+
+    <section id="projects">
+        <div class="grid">
+
+            <!-- 첫 줄: 1, 4 -->
+            <div class="project">
+                <a href="work1/index.html">과제 1</a>
+            </div>
+
+            <div class="project">
+                <a href="work4/index.html">과제 4</a>
+            </div>
+
+            <!-- 둘째 줄: 2, 3 -->
+            <div class="project">
+                <a href="work2/index.html">과제 2</a>
+            </div>
+
+            <div class="project">
+                <a href="work3/index.html">과제 3</a>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
